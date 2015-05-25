@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+
+<!-- David Gavin
+	 Cohort: May 06, 2015
+     Stage 1 Project Submission
+     Due Date: May 25th
+     IDE: Eclipse -->
+
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="stage_1.css">
+		<title>Intro to Programming Notes</title>
+		<link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+	<!-- These notes were compiled using the Cornell Method.  Each section will
+	     be made up of related articles that are themselves broken down into 4 smaller sections.
+	     The largest of these will be the main body of the notes, contained within a
+	     div tag.  Centered directly above that will be the heading for that article.
+	     To the left of the body will be a list of key points.  Below both
+	     there will be a summary for that article.  The list of key points and summary
+	     will both be contained within aside tags.-->
+
+	<h1 class="heading notebook_heading" id="Intro_to_Prog">Introduction to Programming Notes</h1>
+	<nav class="navigation_sidebar">
+		<dl>
+			<dt class="section_link"><a href="#skills">Skills for Programmers</a></dt>
+				<dd class="article_link"><a href="#meta_skills">Meta Skills</a></dd>
+			<dt class="section_link"><a href="#web_basics">Web Basics</a></dt>
+				<dd class="article_link"><a href="#basics_of_html">Basics of the Web and HTML</a></dd>
+				<dd class="article_link"><a href="#html_markup">HTML Markup</a></dd>
+				<dd class="article_link"><a href="#structure_of_html">Structure of an HTML Document</a></dd>
+			<dt class="section_link"><a href="#hints_for_learning">Hints for Learning</a></dt>
+				<dd class="article_link"><a href="#from_novice_to_expert">From Novice to Expert</a></dd>
+			<dt class="section_link"><a href="#document_creation_h2">Document Creation</a></dt>
+				<dd class="article_link"><a href="#document_structure">Creating a Structured Document</a></dd>
+				<dd class="article_link"><a href="#CSS">Cascading Style Sheets</a></dd>
+		</dl>
+	</nav>
+	<div>
+		<section class="related_articles" id="skills">
+			<h2 class="heading section_heading" id="skills_for_programmers">Skills for Programmers</h2>
+			<article id="meta_skills">
+				<h3 class="heading article_heading" id="meta_skills_h3">Meta Skills</h3>
+				<div class="notes">
+					<div class="note_body">
+						<p>
+							Programming involves 5 meta skills. They are <em>procedural
+							thinking</em>, <em>abstract thinking</em>, <em>systems thinking</em>,
+							<em>technological empathy</em>, and <em>debugging</em>.
+						</p>
+						<p>
+							<em>Procedural thinking</em>
+							is used to create unambiguous instructions
+							for a computer to follow. It works in
+							conjunction with <em>systems thinking</em>
+							to break down a series of actions into
+							smaller pieces that are easier to explain
+							and code. These smaller pieces are then put
+							together to create the complete solution for
+							a problem.
+						</p>
+						<p>
+							<em>Abstract thinking</em>
+							involves the generalization between things
+							that appear to be different. It is the
+							recognition of patterns that exist across
+							domains. Mathematics is one form of abstract
+							thinking. For example the derivative has
+							applications in both physics and economics.
+						</p>
+						<p>
+							<em>Systems thinking</em>
+							is used to break a problem down into it's
+							component parts. It is used to slice and
+							dice a problem down into smaller, more
+							manageable pieces.
+						</p>
+						<p>
+							<em>Technological Empathy</em>
+							is the ability to understand technology,
+							both it's strengths and weaknesses. For
+							programmers this means understanding
+							computers, how they work, what they are good
+							at, and what they aren't.
+						</p>
+						<p>
+							<em>Debugging</em>
+							is the process of finding errors in a
+							program. Both syntactic and semantic. It is
+							the process a programmer uses to eliminate
+							grammatical and logical errors from a
+							program (failures to correctly communicate
+							what a programmer wants to a computer).
+							Computers are stupid, they cannot make
+							guesses about a programmer's intended
+							meaning. They can only execute the literal
+							instructions that they were given.
+						</p>
+					</div>
+					<aside class="key_points">
+						<h5 class="key_point">Procedural Thinking</h5>
+						<h5 class="key_point">Abstract Thinking</h5>
+						<h5 class="key_point">Systems Thinking</h5>
+						<h5 class="key_point">Technological Empathy</h5>
+						<h5 class="key_point">Debugging</h5>
+					</aside>
+				</div>
+				<aside class="notes_summary">
+					<p>
+						 Programmers rely on 5 meta skills. They are
+						 <em>procedural thinking</em>, <em>abstract thinking</em>
+						 , <em>systems thinking</em>, <em>technological empathy</em>
+						 , and <em>debugging</em>. A programmer must develop all five
+						 if he hopes to master the art and science of programming.
+					</p>
+				</aside>
+			</article>
+		</section>
+
+		<section class="related_articles" id="web_structure">
+			<h2 class="heading section_heading" id="web_basics">Web Basics</h2>
+			<article id="basics_of_html">
+				<h3 class="heading article_heading">Basics of the Web and HTML</h3>
+				<div class="notes">
+					<div class="note_body">
+
+						<p>
+							The web consists of several major
+							components. They are the
+							<em>end user</em>, <em>their computer</em>
+							and it's <em>browser</em>, the <em>internet</em>,
+							and the <em>servers</em> that host content and direct traffic.
+						</p>
+						<p>
+							<em>HTML</em> (Hyper Text Markup Language) is the glue
+							that holds a web page together. It describes
+							and creates the structure of a web page. It
+							can contain text, markup, references to
+							other documents, and links to other pages.
+						</p>
+						<p>
+							<em>Hyperlinks</em> link one page to another.
+						</p>
+					</div>
+					<aside class="key_points">
+						<h5 class="key_point">Components of the web</h5>
+						<h5 class="key_point">
+							HTML is the glue that holds a webpage
+							together.
+						</h5>
+					</aside>
+				</div>
+				<aside class="notes_summary">
+					<p>
+						The web is made up of several components that serve to facilitate communication
+						between the end user and the servers that contain the content.  HTML provides
+						the structure of web pages.
+					</p>
+				</aside>
+			</article>
+			<article id="html_markup">
+				<h3 class="heading article_heading">HTML Markup</h3>
+				<div class=notes>
+					<div class="note_body">
+						<p>
+ 							HTML documents are made up of <em>elements</em>.
+ 							They are the building blocks that, when combined,
+ 							create the structure of a web page.
+						</p>
+						<p>
+ 							An <em>element</em> usually consists of an opening tag
+ 							and closing tags. The opening tags often contain attributes
+ 							that define some property of the element. Void tags, such as
+ 							the line break tag, do not require a closing tag.
+						</p>
+						<p>
+							<em>Elements</em> can be <em>inline</em> or <em>block</em>.
+							<em>Inline</em> elements exist on a line while <em>block</em>
+							elements create a box that will hold the content.
+						</p>
+						<p>
+							<em>Span</em> is an example of an <em>inline element</em> and
+							<em>div</em> is an example of a <em>block element</em>. Each
+							can take CSS class attributes that will define how they appear.
+						</p>
+						<p>
+ 							Two very important types of <em>attributes</em> are the <em>class</em>
+ 							and <em>ID attributes</em>. Both act as hooks that CSS and JavaScript
+ 							can use to identify specific elements or groups of elements so that they
+ 							can act on a web page.
+						</p>
+						<p> <!-- Some discussion of "Don't repeat yourself." -->
+							<em>Class attributes</em> identify elements as an instance of a given
+							class. They group elements together by style. Using them effectively
+							can both drastically reduce the amount of code that needs to be
+							written and the amount of bugs on a page. It also makes it much easier
+							 to modify and debug a page. It enables developers to create a web
+							 page <em>without repeating themselves.</em>
+						</p>
+						<p>
+							It does this by allowing a developer to
+							write one style definition that can then be
+							applied to all elements that have that style
+							attribute. All elements affected by that
+							style will be affected by any changes made
+							to it. Less code means less typos and other
+							bugs when it is initially coded. It means
+							less code to read and correct when
+							debugging, and it reduces the opportunities
+							for bugs to sneak in while it is being
+							modified. Fewer bugs is a natural
+							consequence of there being only one section
+							of code that needs to be modified, instead
+							of two, three, ten, or more to affect a
+							change.
+						</p>
+						<p>
+							<em>ID attributes</em> act as unique identifiers. They allow a developer
+							to target a single element for modification by CSS or Javascript, as well
+							as enabling the creation of links within a page. They must be unique or
+							the file will not validate. The ability to use them as targets within a
+							page is also dependent upon their uniqueness. If something needs modify
+							more than a single element, use a class.
+						</p>
+						<p>
+							A single element can have multiple classes.
+							They are space delimited.
+						</p>
+					</div>
+					<aside class="key_points">
+						<h5 class="key_point">Elements</h5>
+						<h5 class="key_point">Inline vs. block Elements</h5>
+						<h5 class="key_point">Class attributes</h5>
+						<h5 class="key_point">ID attributes</h5>
+					</aside>
+				</div>
+				<aside class="notes_summary">
+					<p>
+						HTML Documents are made up of Elements.  These can be inline or block and take attributes.
+						Class attributes identify an element as a group that all share similar styling, while ID
+						attributes act as unique identifiers.
+					</p>
+				</aside>
+			</article>
+			<article id="structure_of_html">
+				<h3 class="heading article_heading">Structure of an HTML Document - Part 1</h3>
+				<div class="notes">
+					<div class="note_body">
+						<p>
+ 							Every HTML document has several structural elements. The first
+ 							is the <em>Doctype</em>, it is followed by the <em>Root</em> of
+ 							the document, defined by the HTML tag. The HTML tag contains
+ 							<em>head</em> and <em>body</em> elements.
+						</p>
+						<p>
+ 							The <em>doctype</em> element tells the browser what version of
+ 							HTML the page uses.
+						</p>
+						<p>
+ 							The <em>root</em> (HTML) element contains all the content of the page.
+ 							All other elements grow out of this. It is the base of the tree from
+ 							which all other elements grow. The opening tag comes just after the
+ 							doctype declaration and it's closing tag comes at the end of the document.
+						</p>
+						<p>
+ 							The <em>head</em> contains metadata, JavaScript, and references to CSS
+ 							style sheets. It's contents are not displayed.
+						</p>
+						<p>
+ 							The <em>body</em> contains all of the content and can be further divided
+ 							into smaller sections using the span, div, section, article, and aside tags.
+						</p>
+					</div>
+					<aside class="key_points">
+						<h5 class="key_point">HTML documents have structure.</h5>
+						<h5 class="key_point">Doctype</h5>
+						<h5 class="key_point">Root</h5>
+						<h5 class="key_point">body</h5>
+					</aside>
+				</div>
+				<aside class="notes_summary">
+					<p>
+ 						HTML documents have a tree structure that is divided into several elements.
+ 						The <em>doctype</em>, the <em>root</em> (html), the <em>head</em>, and the
+ 						<em>body</em>. The body element can be further divided using a variety of
+ 						other elements.
+					</p>
+				</aside>
+			</article>
+		</section>
+		<section class="related_articles" id="learning_strategies">
+			<h2 class="heading section_heading" id="hints_for_learning">Interlude - Hints for Learning</h2>
+			<article id="from_novice_to_expert">
+				<h3 class="heading article_heading">From Novice to Expert</h3>
+				<div class="notes">
+					<div class="note_body">
+						<p>
+ 							Students begin as Novices and pass through four stages on
+ 							their <em>way to becoming experts.</em> They are Ignorance,
+ 							Awareness, Ability, and Fluency.
+						</p>
+						<p>
+							Students can progress more quickly and
+							easily through the process by taking the
+							time to reflect on what they have learned.
+							This helps them to take scattered facts and
+							organize them into a structured
+							understanding.
+						</p>
+						<p>
+							Practice is also extremely important if
+							students are to gain the ability to execute
+							on their good ideas.
+						</p>
+						<p>
+							There are some things to keep in mind when <em>listening
+							to experts</em>. Sometimes they will assume that you have
+							knowledge you don't, use jargon you don't understand, or
+							speak too quickly for you to understand.
+						</p>
+						<p>
+							They are not trying to confuse you, they
+							have just forgotten how hard it was for them
+							when they were getting started. Ask
+							questions when this happens.
+						</p>
+					</div>
+					<aside class="key_points">
+						<h5 class="key_point">Skill Stages</h5>
+						<h5 class="key_point">Progressing through the stages.</h5>
+						<h5 class="key_point">How to listen to experts.</h5>
+					</aside>
+				</div>
+				<aside class="notes_summary">
+					<p>
+						Students pass through Ignorance, Awareness, and Ability on their way to becoming experts who have achieved
+						Fluency.  Practice is critical to advancing.
+					</p>
+					<p>
+						Speaking with experts can also be a great help.
+					</p>
+				</aside>
+			</article>
+		</section>
+		<section class="related_articles" id="document_creation">
+			<h2 class=" heading section_heading" id="document_creation_h2">Document Creation</h2>
+			<article id="document_structure">
+				<h3 class="heading article_heading">Creating a Structured Document</h3>
+				<div class="notes">
+					<div class="note_body">
+						<p>
+							The structure of a page is controlled by the <em>DOM (Document
+							Object Model)</em>. HTML defines the structure. While CSS defines
+							the appearance of a page.
+						</p>
+						<p>
+							<em>DOM</em> is a cross platform and language independent convention
+							for representing and interaction with objects in mark up languages such
+							as HTML. It generally has a tree like structure with many branching
+							elements emerging from the root.
+						</p>
+						<p>
+ 							HTML uses a<em>box</em> model. Each box has several layers. The
+ 							central layer is the content of the box. It is enclosed by padding,
+ 							a border, and a margin.
+						</p>
+						<p>
+ 							The <em>content</em> is the nucleus of the element and contains
+ 							media of some kind, such as text or an image.
+						</p>
+						<p>
+ 							The <em>padding</em> clears an area around the content and is
+ 							affected by the background color of the box.
+						</p>
+						<p>
+ 							The <em>border</em> goes around the padding and content and
+ 							inherits the color property of the box.
+						</p>
+						<p>
+ 							The <em>margin</em> clears an area around the border and is
+ 							completely transparent. It is the space between the boxes.
+						</p>
+						<p>
+ 							The <em>element width</em> is equal to the total width of the
+ 							content, padding, and border. By setting the box sizing attribute
+ 							to border-box the calculation on element size will include both the
+ 							border and padding (not just the content). However, the margin is
+ 							not included.
+						</p>
+						<p>
+ 							The border-box attribute is a relatively recent addition to CSS
+ 							and so will not be supported by many older browsers. This can be
+ 							fixed by adding <em>browser specific prefixes</em>.
+						</p>
+						<p>
+							<em>Element size</em> can be given in pixels or percentage of
+							screen. If the size is set using pixels the element will not
+							change size to accommodate itself to different screen sizes. If
+							the element size is specified with percentages it will adapt itself
+							automatically. Minimum and maximum screen sizes can also be specified.
+						</p>
+						<p>
+ 							The <em>flex-box</em> attribute will allow divs to appear next to each
+ 							other. They are used so that a page can dynamically resize and rearrange
+ 							itself in response to changes in size and orientation of the viewing area.
+						</p>
+						<p>
+							When choosing a tag to use to create an element, the function of the element
+							should be considered. While many block elements are syntactically similar, they
+							carry different <em>semantic meanings</em>. Heading, section, article, aside,
+							and nav tags are all examples of block tags with special semantic meanings.
+						</p>
+						<p>
+ 							When creating a web page the <em>Code</em>, <em>Test</em>, <em>Refine</em> cycle
+ 							is very effective. First the developer should consider the design of the page,
+ 							looking for natural boxes and repeated styles and semantic elements. Next they
+ 							should write their HTML code. Then apply styles working from the biggest structural
+ 							elements of the page to the smallest. Finally they should go back and compare their
+ 							results to the initial design, fixing any remaining minor details that may need
+ 							adjustment.
+						</p>
+						<p>
+ 							HTML and CSS should be <em>validated</em> before being published to the web. Code that
+ 							fails to validate fails to meet the standard specifications and may display differently
+ 							than intended, depending on a given browser's response to the code the faulty code.
+ 							HTML and CSS should be validated before being published to the web. Code that fails to
+ 							validate fails to meet the standard specifications and may display differently than
+ 							intended, depending on a given browser's response to the code the faulty code.
+						</p>
+					</div>
+					<aside class="key_points">
+						<h5 class="keypoint">The Document Object Model (DOM) has a tree like structure and is platform independent.</h5>
+						<h5 class="keypoint">HTML elements are layered boxes.</h5>
+						<h5 class="keypoint">Content</h5>
+						<h5 class="keypoint">Padding</h5>
+						<h5 class="keypoint">Border</h5>
+						<h5 class="keypoint">Margin is not included when calculating the element width.</h5>
+						<h5 class="keypoint">When using the border-box attribute browser specific prefixes should be used.</h5>
+						<h5 class="keypoint">Element size can be set via pixels or percentages.</h5>
+						<h5 class="keypoint">Flex-box allows boxes to appear side by side.</h5>
+						<h5 class="keypoint">Tags have semantic meanings that should be considered.</h5>
+						<h5 class="keypoint">Code, Test, Refine</h5>
+						<h5 class="keypoint">Code should be validated.</h5>
+					</aside>
+				</div>
+				<aside class="notes_summary">
+					<p>
+						HTML documents are structured documents. The
+						structure is controlled by the DOM, which is a
+						cross platform and language independent
+						convention for mark up languages.
+					</p>
+					<p>
+						HTML uses a box model.
+					</p>
+					<p>
+						Before publishing a document code should be
+						validated.
+					</p>
+				</aside>
+			</article>
+			<article id="CSS">
+				<h3 class="heading article_heading">Cascading Style Sheets</h3>
+				<div class=notes>
+					<div class=note_body>
+						<p>
+							<em>Cascading Style Sheets</em>
+							(CSS) are used to style a web page. The term
+							cascading refers to the way a style applied
+							to an element cascades down to all of it's
+							children. In other words each child element
+							inherits the CSS property values from their
+							ancestor elements.
+						</p>
+						<p>
+							A style applied to a large branch will
+							affect all of it's child branches. But that
+							styling can be refined or overridden on any
+							child branch by simply assigning another
+							style to just that branch.
+						</p>
+						<p>
+							In general decedents inherit text-related
+							properties, but not box ones.
+						</p>
+						<p>
+							A single HTML document can reference
+							multiple CSS style sheets.
+						</p>
+					</div>
+					<aside class="key_points">
+						<h5 class="keypoint">CSS is used to style a web page.</h5>
+						<h5 class="keypoint">Child branches inherit styles from their parents.</h5>
+						<h5 class="keypoint">An HTML document can use multiple style sheets.</h5>
+					</aside>
+				</div>
+				<aside class="notes_summary">
+					<p>
+						CSS (Cascading Style Sheets) are used to control
+						a web pages appearance. Branches on the HTML
+						tree inherit styles from their parents. Styles
+						applied to child branches will override those
+						inherited from a parent.
+					</p>
+				</aside>
+			</article>
+		</section>
+	</div>
+	</body>
+</html>

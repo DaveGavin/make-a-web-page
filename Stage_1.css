@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+
+*{
+	  font-family: 'Architects Daughter', cursive;
+}
+
+.heading {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.related_articles {
+	width: 75%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 30px;
+	color: white;
+	background-color: #B84500;
+	border-radius: 50px;
+	padding-right:40px;
+	padding-left: 40px;
+	padding-bottom: 5px;
+}
+
+article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	background-image: url("file:images/blackboard_569260_1280_pixabay_public_domain_color_cast.png");
+	-webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    border-radius: 20px;
+}
+
+
+.notes {
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.note_body {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	order: 1;
+	width: 75%;
+}
+
+.key_points{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+
+	order: -1;
+	width: 15%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.notes_summary {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	width: 75%;
+}
+
+em{
+	font-weight: bold;
+	text-decoration: underline;
+	font-style: italic;
+	color:#B2AA00;
+}
